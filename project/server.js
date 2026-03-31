@@ -7,7 +7,8 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const JWT_SECRET = process.env.JWT_SECRET || 'supersecretjwtkey2024';
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://akshit:akshit00@cluster0.lyetpvg.mongodb.net/mern-auth-db';
+#addyourmongodburi
+const MONGO_URI = process.env.MONGO_URI || '';
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
