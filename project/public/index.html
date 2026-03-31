@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus — MERN Auth Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="nav-brand">Nexus</a>
+    <ul class="nav-links" id="nav-dynamic"></ul>
+  </nav>
+  <main>
+    <div class="page-hero fade-in">
+      <div class="eyebrow">Secure Authentication Platform</div>
+      <h1>Identity &<br><em>Access Control</em></h1>
+      <p class="subtitle">A full-stack MERN application with JWT authentication, bcrypt password hashing, and role-based access control for users and administrators.</p>
+      <div class="btn-group" id="nav-cta"></div>
+    </div>
+    <div class="page">
+      <div class="card-grid fade-in">
+        <div class="feature-card">
+          <div class="feature-icon">🔑</div>
+          <h3>JWT Authentication</h3>
+          <p>Stateless token-based authentication using JSON Web Tokens. Tokens expire in 24 hours and protect every sensitive API endpoint.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛡️</div>
+          <h3>Role-Based Access</h3>
+          <p>Three-tier authorization: public visitors, authenticated users, and administrators — each with distinct permissions and accessible routes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔒</div>
+          <h3>Bcrypt Security</h3>
+          <p>All passwords are salted and hashed with bcrypt before storage. Plain-text passwords never touch the database.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🗄️</div>
+          <h3>MongoDB + Mongoose</h3>
+          <p>User data is persisted in MongoDB with a structured Mongoose schema enforcing validation and data integrity.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👥</div>
+          <h3>User Management</h3>
+          <p>Administrators can view all registered users, their roles, and remove accounts directly from the management dashboard.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">⚡</div>
+          <h3>Express REST API</h3>
+          <p>Clean RESTful endpoints for registration, login, user listing, and deletion — all served from a single Node.js process.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <span>Nexus Auth · MERN Stack · MongoDB · Express · Node.js</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

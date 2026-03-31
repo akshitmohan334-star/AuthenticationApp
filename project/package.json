@@ -1,0 +1,18 @@
+{
+  "name": "mern-auth-app",
+  "version": "1.0.0",
+  "description": "MERN stack app with authentication and role-based access control",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
